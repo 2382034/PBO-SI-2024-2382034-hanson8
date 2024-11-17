@@ -2,7 +2,7 @@ package entities.repositories;
 
 import entities.TodoList;
 
-public class TodoListRepositoryImpl implements repositories.TodoListRepository {
+public class TodoListRepositoryImpl implements entities.repositories.TodoListRepository {
     public static TodoList[] todos = new TodoList[10];
 
     @Override

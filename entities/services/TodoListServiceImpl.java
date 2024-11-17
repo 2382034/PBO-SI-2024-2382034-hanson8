@@ -1,7 +1,7 @@
 package entities.services;
 
 import entities.TodoList;
-import repositories.TodoListRepository;
+import entities.repositories.TodoListRepository;
 
 public class TodoListServiceImpl implements TodoListService{
     private final TodoListRepository todoListRepository;
